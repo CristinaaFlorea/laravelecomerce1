@@ -10,7 +10,7 @@
 				</ul>
 			</div>
 			<div class=" main-content-area">
-
+			
 				<div class="wrap-iten-in-cart">
 					@if(Session::has('success_message'))
 						<div class="alert alert-success">
@@ -63,6 +63,7 @@
 						<a class="btn btn-clear" href="#" wire:click.prevent="destroyAll()">Clear Shopping Cart</a>
 					</div>
 				</div>
+			
 			</div><!--end main content area-->
 		</div><!--end container-->
 
